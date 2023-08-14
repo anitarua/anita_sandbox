@@ -1,5 +1,5 @@
-import {v4} from './node_modules/uuid/dist/esm-node/index.js';
+import ShortUniqueId from 'short-unique-id';
 
 export function helloWorld() {
-  return `Hello World ${v4()}!`;
+  return `Hello World ${new ShortUniqueId()}!`;
 }
