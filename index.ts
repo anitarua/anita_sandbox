@@ -1,5 +1,5 @@
-import { v4 as uuidv4 } from './node_modules/uuid/dist/index.js';
+import v4 from './node_modules/uuid/dist/v4.js';
 
 export function helloWorld() {
-  return `Hello World ${uuidv4()}!`;
+  return `Hello World ${v4()}!`;
 }
