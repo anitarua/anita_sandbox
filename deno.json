@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "short-unique-id": "https://cdn.jsdelivr.net/npm/short-unique-id@3.0.0-rc1/short_uuid/mod.ts"
+  }
+}
